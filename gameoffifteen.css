@@ -1,0 +1,117 @@
+body{
+    background-color: #ffffff;
+    width: 100%;
+}
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* h1{
+    text-align: center;
+} */
+/* 
+.grid, .tile{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 416px;
+    padding: 15px;
+    margin: auto;
+    background-color: #f2c0c0;
+    border-radius: 15px;
+}
+.tile{
+    padding: 10px;
+    height: 80px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #a3e9ef, #6cd9ec) ;
+    box-shadow: 0 3px 5px gray;
+    margin: 2px;
+}
+.hole{
+    z-index: -1;
+}
+.text{
+    font-size: 55px;
+    margin: auto;
+    line-height: 5px;
+    font-weight:bold;
+    color: #dd7474;
+    text-shadow: 3px 3px 3px #f8f5f5; 
+}
+.twelve {
+    transition: transform 1s linear;
+}
+.twelve {
+    transform: translateY(104px);
+} */
+.grid{
+    position: relative;
+    padding: 15px;
+    width: 416px;
+    margin: auto;
+    background-color: #f2c0c0;
+    border-radius: 15px;
+    margin: auto;
+    /* height: 80px;
+    background-image: linear-gradient(to right, #a3e9ef, #6cd9ec) ;
+    box-shadow: 0 3px 5px gray; */
+}
+.tile{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #a3e9ef, #6cd9ec) ;
+    box-shadow: 0 3px 5px gray;
+    box-sizing: border-box;
+    padding: 20px 22px;
+    margin: 2px;
+    font-size: 50px;
+    /* line-height: 5px; */
+    font-weight:bold;
+    color: #dd7474;
+    text-shadow: 3px 3px 3px #f8f5f5;
+    transition: all 0.2s linear;
+    /* cursor: pointer; */
+    /* transition: left 1s linear; */
+
+}
+.hole {
+    z-index: -1;
+}
+.winningMessage {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #2b612b;
+    /* width: 220px; */
+
+}
+.play {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: gray;
+    background-color: green;
+    color: white;
+}
+.missed {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #c93f5f;
+    /* width: 220px; */
+
+}
+/* .text {
+    font-size: 50px;
+    line-height: 5px;
+    font-weight:bold;
+    color: #dd7474;
+    text-shadow: 3px 3px 3px #f8f5f5;
+} */
